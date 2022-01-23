@@ -1,0 +1,60 @@
+/* ======================================================
+   OEFENEN MET FLEXBOX
+========================================================= */
+
+/* Schrijf hier  jouw CSS! */
+
+/*Opdracht 2.1*/
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/*Opdracht 2.2*/
+
+.containertwo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.edhub {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*Opdracht 2.3*/
+
+.containerthree {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 70px;
+}
+
+/*Opdracht 2.4*/
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Opdracht 2.5*/
+
+.five {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-right: auto;
+    padding: 5px 10px 5px 10px;
+    flex-wrap: wrap;
+}
+
+article {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 300px;
+}
